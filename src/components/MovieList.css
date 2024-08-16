@@ -1,0 +1,36 @@
+.movie-card {
+    border: 2px solid #ff2e1b; /* Borda colorida para destaque */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para efeito de profundidade */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Transições suaves */
+}
+ 
+.movie-card:hover {
+    transform: scale(1.03); /* Aumenta o cartão no hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4); /* Intensifica a sombra no hover */
+}
+ 
+.card-img-top {
+    border-radius: 10px 10px 0 0; /* Bordas arredondadas da imagem */
+}
+ 
+.card-title {
+    font-size: 1.25rem; /* Tamanho da fonte do título */
+    font-weight: bold; /* Fonte em negrito */
+}
+ 
+.card-text {
+    font-size: 0.9rem; /* Tamanho da fonte do texto */
+}
+ 
+.btn-info {
+    background-color: #ff3e2c; /* Cor de fundo do botão */
+    border-color: #f52715; /* Cor da borda do botão */
+    border-radius: 50px; /* Borda arredondada do botão */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+}
+ 
+.btn-info:hover {
+    background-color: #f52715; /* Cor de fundo do botão ao passar o mouse */
+    border-color: #ff3b30; /* Cor da borda do botão ao passar o mouse */
+}

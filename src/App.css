@@ -1,0 +1,38 @@
+body {
+  background-color: #f8f9fa; /* Cor de fundo da página */
+  font-family: 'Roboto', sans-serif; /* Fonte utilizada no corpo do texto */
+}
+
+.card-title {
+  font-weight: bold; /* Fonte em negrito */
+  font-size: 1.5rem; /* Tamanho da fonte do título */
+}
+
+.card-text {
+  font-size: 1rem; /* Tamanho da fonte do texto */
+  text-align: justify; /* Alinha o texto de forma justificada */
+}
+
+.btn-primary {
+  background-color: #007bff; /* Cor de fundo do botão primário */
+  border-color: #007bff; /* Cor da borda do botão primário */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+}
+
+.header-navbar {
+  background: linear-gradient(90deg, #1f1c2c, #928DAB); /* Gradiente de cor para o cabeçalho */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para efeito de profundidade */
+}
+
+.header-navbar .navbar-brand {
+  font-size: 1.5rem; /* Tamanho da fonte do nome do site */
+  font-weight: bold; /* Fonte em negrito */
+}
+
+.header-navbar .navbar-brand .fa-film {
+  font-size: 1.5rem; /* Tamanho do ícone */
+  color: #f5c518; /* Cor do ícone */
+}
